@@ -1,0 +1,166 @@
+:root {
+  --white-color: #ffffff;
+  --secondary-bcg-color: #f7f7f7;
+  --prymary-text-color: #303030;
+  --secondary-text-color: #555555;
+  --bcg-text-color: #9da4bd;
+  --accent-color: #ff6c00;
+  --dark-bcg-color: #191c26;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--prymary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  background-color: var(--dark-bcg-color);
+}
+
+.site-nav a {
+  color: var(--white-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav a {
+  color: var(--white-color);
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-color);
+}
+
+.social a {
+  color: var(--prymary-text-color);
+}
+
+.social a:hover,
+.social a:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--dark-bcg-color);
+}
+
+h1 {
+  color: var(--white-color);
+}
+
+.hero h3,
+.hero p {
+  color: var(--bcg-text-color);
+}
+
+/* About */
+
+.about a {
+  color: var(--prymary-text-color);
+}
+
+.about a:hover,
+.about a:focus {
+  color: var(--accent-color);
+}
+
+.about h3,
+.about p {
+  color: var(--secondary-text-color);
+}
+
+/* Price */
+
+.price {
+  background-color: var(--secondary-bcg-color);
+}
+
+.price h2 {
+  color: var(--white-color);
+}
+
+.price p,
+table {
+  color: var(--bcg-text-color);
+}
+
+.price a {
+  color: var(--prymary-text-color);
+}
+
+.price a:hover,
+.price a:focus {
+  color: var(--accent-color);
+}
+
+/* Features */
+
+.features .box {
+  background-color: var(--secondary-bcg-color);
+}
+
+.features .desc {
+  color: var(--secondary-text-color);
+}
+
+/* Barbers */
+
+.barbers {
+  background-color: var(--secondary-bcg-color);
+}
+
+.box .plus {
+  color: var(--accent-color);
+}
+
+.barbers h4 {
+  color: var(--accent-color);
+}
+
+/* Order */
+
+.order {
+  background-color: var(--dark-bcg-color);
+}
+
+.order h2 {
+  color: var(--white-color);
+}
+
+/* Contacts */
+
+.contacts {
+  background-color: var(--dark-bcg-color);
+  color: var(--bcg-text-color);
+}
+
+address a {
+  color: var(--bcg-text-color);
+}
+
+.contacts h2,
+.contacts h3 {
+  color: var(--white-color);
+}
+
+/* Footer */
+
+footer p {
+  color: var(--bcg-text-color);
+}

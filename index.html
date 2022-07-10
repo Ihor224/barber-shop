@@ -5,33 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarberShop</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <a href="./index.html">logo</a>
 
       <nav>
-        <ul>
-          <li><a href="">О нас</a></li>
-          <li><a href="">Услуги и цены</a></li>
-          <li><a href="">Мастера</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav">
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#price">Услуги и цены</a></li>
+          <li><a href="#barbers">Мастера</a></li>
+          <li><a href="#contacts">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="auth-nav">
         <li><a href="tel:++380441111111">+38 044 111 11 11</a></li>
-        <li><a href=""></a>онлайн-запись</li>
+        <li><a href="#order">онлайн-запись</a></li>
       </ul>
 
-      <ul>
+      <ul class="social">
         <li><a href="">Instagram</a></li>
         <li><a href="">Youtube</a></li>
       </ul>
     </header>
 
     <main>
-      <section>
+      <section class="hero">
         <p>A hair salon for men in Kyiv</p>
         <h1>BarberShop</h1>
         <h3>
@@ -40,12 +41,12 @@
         </h3>
       </section>
 
-      <section>
+      <section class="about">
         <img src="./img/about-img-1.jpg" alt="barber at work" width="270" />
         <img src="./img/about-img-2.jpg" alt="barber at work" width="270" />
 
         <p>О НАС</p>
-        <h2>Лучший Барбершоп твоего города</h2>
+        <h2 id="about">Лучший Барбершоп твоего города</h2>
         <h3>
           Если ты хочешь добавить в свой образ больше уверенности – тебе точно к
           нам.
@@ -58,12 +59,12 @@
           приходит!
         </p>
 
-        <a href="">онлайн-запись</a>
+        <a href="#order">онлайн-запись</a>
       </section>
 
-      <section>
+      <section class="price">
         <p>Проведи время в компании лучших мастеров</p>
-        <h2>Услуги и цены</h2>
+        <h2 id="price">Услуги и цены</h2>
         <table>
           <tr>
             <td>Мужская стрижка</td>
@@ -99,32 +100,32 @@
           </tr>
         </table>
 
-        <a href="">онлайн-запись</a>
+        <a href="#order">онлайн-запись</a>
       </section>
 
-      <section>
+      <section class="features">
         <ul>
           <li>
-            <div>
-              <p>600</p>
+            <div class="box">
+              <p>600<span class="plus">+</span></p>
               <p>Довольных клиентов в день</p>
             </div>
           </li>
           <li>
-            <div>
-              <p>50</p>
+            <div class="box">
+              <p>50<span class="plus">+</span></p>
               <p>Наград за отличный сервис</p>
             </div>
           </li>
           <li>
-            <div>
-              <p>20</p>
+            <div class="box">
+              <p>20<span class="plus">+</span></p>
               <p>Лучших мастеров Киева</p>
             </div>
           </li>
           <li>
-            <div>
-              <p>100</p>
+            <div class="box">
+              <p>100<span class="plus">+</span></p>
               <p>Подарков постоянным клиентам</p>
             </div>
           </li>
@@ -132,15 +133,15 @@
 
         <p>старая традиционная школа</p>
         <h2>Почему приходят именно к нам?</h2>
-        <p>
+        <p class="desc">
           О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать,
           чем 10 раз прочитать.
         </p>
       </section>
 
-      <section>
+      <section class="barbers">
         <p>для настоящих ценителей атмосферы</p>
-        <h2>Наши мастера</h2>
+        <h2 id="barbers">Наши мастера</h2>
         <ul>
           <li>
             <div>
@@ -219,21 +220,21 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Онлайн-запись</h2>
+      <section class="order">
+        <h2 id="order">Онлайн-запись</h2>
         <button type="button">отправить</button>
       </section>
 
       <section>
-        <h2>Контакты</h2>
+        <h2 id="contacts">Контакты</h2>
 
         <address>
           <p>ул. Васильковая, 7А Киев, 08132</p>
           <br />
-          <a href="tel:++380441111111">+38 044 111 11 11</a>
+          <a href="tel:++380441111111">+38 044 111 11 11</a><br />
           <a href="mailto:">barbershop@email.com</a>
 
-          <p>время работы</p>
+          <h3>время работы</p>
           <p>Ежедневно с 9:00 до 22:00</p>
         </address>
       </section>
@@ -241,7 +242,7 @@
 
     <footer>
       <p>Copyright 2020</p>
-      <ul>
+      <ul class="social">
         <li><a href="">Instagram</a></li>
         <li><a href="">Youtube</a></li>
       </ul>
